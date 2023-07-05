@@ -1,7 +1,7 @@
 library(tidyverse)
 showtext_opts(dpi = 320)
 showtext_auto(enable = TRUE)
-font_add(family = "fb", regular = "Font Awesome 6 Brands-Regular-400.otf") #Brand logos
+font_add(family = "fb", regular = "Font Awesome 6 Brands-Regular-400.otf") #Brand logos, the file must be in the same folder or have the path linked to it
 
 cap <- paste0("<span style='font-family:fb;'>&#xf09b; </span> Haclio  |", #Caption with Fontawesome brands font
               "<span style='font-family:fb;'> &#xf099; </span>@LouisNadalin | Source: * | etc")
