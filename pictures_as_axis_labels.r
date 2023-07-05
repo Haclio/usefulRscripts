@@ -1,12 +1,7 @@
-library(tidyverse)
-showtext_opts(dpi = 320)
-showtext_auto(enable = TRUE)
-font_add(family = "fb", regular = "Font Awesome 6 Brands-Regular-400.otf") #Brand logos
+library(tidyverse) #For ggplot
+library(ggtext) #To use images as labels
 
-cap <- paste0("<span style='font-family:fb;'>&#xf09b; </span> Haclio  |", #Caption with Fontawesome brands font
-              "<span style='font-family:fb;'> &#xf099; </span>@LouisNadalin | Source: * | etc")
-
-label <- c( #Array of pictures to use as axis labels, letters here replace axis labels 
+label <- c( #Array of pictures to use as axis labels, first column here to be replaced by the factor levels used
   A = "<img src='A.png' height = *, width = *>",
   B = "<img src='B.png' height = *, width = *>",
   C = "<img src='C.png' height = *, width = *>",
